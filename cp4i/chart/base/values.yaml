@@ -32,7 +32,7 @@ connectsTo: QM
 
 configmap:
   QM: "QM1"
-  CONNECTION_NAME: "qm-dev-ibm-mq.dev.svc.cluster.local(1414)"
+  CONNECTION_NAME: "qm1-dev-ibm-mq.dev.svc.cluster.local(1414)"
   CHANNEL: "MONITORING_CHL"
   QUEUES: "!SYSTEM.*,!AMQ.*,*"
   SUBSCRIPTIONS: "!$SYS*"
